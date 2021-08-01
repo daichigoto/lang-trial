@@ -10,7 +10,7 @@ build: ${OBJS}
 
 .c.o:
 	${CC} -c $< -o $@
-	${CC} ${CFLAGS} -o ${@:%.o=%} $@
+	${CC} ${CFLAGS} -o ${@:.o=} $@
 
 clean:
 	rm -f ${OBJS}
