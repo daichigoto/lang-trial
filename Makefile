@@ -1,4 +1,4 @@
-SRCS=	mklen_trial.c
+SRCS!=	ls *.c
 OBJS=	${SRCS:.c=.o}
 CMDS=	${SRCS:.c=}
 
